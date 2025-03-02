@@ -14,7 +14,6 @@ This project is a robust full-stack authentication system featuring a Java-based
 ### 🛠️ Technologies Used
 - ⚡ Next.js
 - 🔷 TypeScript
-- 🔄 React Query (for API calls)
 - 🎨 Tailwind CSS
 - 🌐 Axios (for HTTP requests)
 - 🔑 JWT (for authentication)
