@@ -1,0 +1,12 @@
+services:
+  auth-backend:
+    build: .
+    restart: on-failure
+    container_name: auth-backend
+    image: auth-backend:0.0.1-SNAPSHOT
+    ports:
+      - "8090:8090"
+    environment:
+      SPRING_APPLICATION_JSON: '{ "server.port" : "8090", "spring.docker.compose.enabled": "false" }'
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
