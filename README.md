@@ -21,7 +21,6 @@ Welcome to the **Java Backend Authentication System**! This project leverages **
 ### 🛠️ Technologies Used
 - ⚡ Next.js
 - 🔷 TypeScript
-- 🎨 Tailwind CSS
 - 🌐 Axios (for HTTP requests)
 - 🔑 JWT (for authentication)
 
